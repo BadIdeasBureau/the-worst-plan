@@ -1,0 +1,74 @@
+{
+  "name": "the-worst-plan",
+  "title": "The Worst Plan",
+  "description": "",
+  "version": "This is auto replaced",
+  "library": "false",
+  "manifestPlusVersion": "1.0.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "authors": [
+    {
+      "name": "BadIdeasBureau",
+      "url": "https://github.com/BadIdeasBureau",
+      "discord": "BadIdeasBureau#7024"
+    }
+  ],
+  "dependencies": [
+
+  ],
+  "conflicts": [
+    
+  ],
+"packs": [
+    {
+      "name": "items",
+      "label": "Imported Items",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "module": "SharedData"
+    },
+    {
+      "name": "spells",
+      "label": "Imported Spells",
+      "path": "packs/spells.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "module": "SharedData"
+    },
+    {
+      "name": "features",
+      "label": "Imported Features",
+      "path": "packs/features.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "module": "SharedData"
+    },
+    {
+      "name": "monsters",
+      "label": "Imported Monsters",
+      "path": "packs/monsters.db",
+      "entity": "Actor",
+      "system": "dnd5e",
+      "module": "SharedData"
+    }
+  ]
+  "esmodules": [
+  
+  ],
+  "scripts": [
+    
+  ],
+  "styles": [
+    
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "allowBugReporter":true
+}
